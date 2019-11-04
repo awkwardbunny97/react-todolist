@@ -1,22 +1,39 @@
 .App {
-  text-align: center;
+  background-color: aqua;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App h2 {
   color: white;
+  padding-left: 120px;
+  padding-top:20px;
+  margin: 20px;
+  font-family: 'Helvetica Neuu',Arial, Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #09d3ac;
+#to-do-form input {
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
 }
+
+#to-do-form input:focus, #to-do-form button {
+  outline: none;
+}
+
+#to-do-form button {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: white;
+}
+
